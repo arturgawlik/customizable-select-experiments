@@ -1,0 +1,22 @@
+.custom {
+  select,
+  ::picker(select) {
+    appearance: base-select;
+  }
+
+  ::picker(select) {
+    background: green;
+  }
+
+  selectedoption {
+    background: red;
+  }
+}
+
+.base {
+  select,
+  input {
+    appearance: base;
+    width: 200px;
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select experiments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: flex; gap: 30px;">
+    <div class="custom">
+        <select>
+            <button>
+                this is btn
+                <selectedoption></selectedoption>
+            </button>
+            <div>
+                this is hoisted 
+                <option value="1">option one</option>
+                <option value="2">option two</option>
+                <option value="3">option three</option>
+                after options
+            </div>
+        </select>
+        <!-- <select>
+            <button>
+              <selectedoption>xdd</selectedoption>
+            </button>
+            // Everything else that will go into the ::picker(select) popover
+          </select> -->
+    </div>
+    <div class="base">
+        <select>
+            <option value="1">option one</option>
+            <option value="2">option two</option>
+            <option value="3">option three</option>
+        </select>
+    </div>
+    <div class="native">
+        <select>
+            <option value="1">option one</option>
+            <option value="2">option two</option>
+            <option value="3">option three</option>
+        </select>
+    </div>
+</body>
+</html>
